@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  /* node modules require package jason tailwindcss postcss */
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="/favicon/favicon-4.png" />
+
+    <title>Microsoft</title>
+  </head>
+  <body>
+    <div class="container mx-auto m-4 p-2 shadow-lg">
+      <div
+        class="navbar flex justify-between items-center h-auto cursor-pointer"
+      >
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden w-8 mx-3">
+            <img src="Search-Icon.png" alt="" />
+          </div>
+        </div>
+
+        <div class="logo text-center flex md:order-1">
+          <div class="w-40 md:w-aut p-4"><img src="logo.png" alt="" /></div>
+          <div
+            class="features absolute shadow-sm font-medium w-fit md:static md:w-auto md:items-center md:flex bg-gray-200 md:bg-white inset-0 mx-4 md:space-x-8 -translate-x-96 md:translate-x-0"
+          >
+            <div class="fitems hover:underline">Microsoft-365</div>
+            <div class="fitems hover:underline">Teams</div>
+            <div class="fitems hover:underline">Windows</div>
+            <div class="fitems hover:underline">Surface</div>
+            <div class="fitems hover:underline">Xbox</div>
+            <div class="fitems hover:underline">Support</div>
+          </div>
+        </div>
+
+        <div class="Cart text-center md:order-3 flex md:items-center">
+          <div class="search hidden md:block hover:underline">
+            All Microsoft
+          </div>
+          <img class="mx-4 w-8" src="Search-Icon.png" alt="" />
+          <div class="space-x-1 flex">
+            <img class="mx-4 w-8" src="shopping-cart.png" alt="" />
+            <img class="mx-4 w-8" src="user.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#aed4f8]">
+        <div
+          class="left flex flex-col justify-center md:bg-[#c5e0fb] md:items-baseline py-8 bg-white md:w-2/3"
+        >
+          <h1 class="text-3xl mx-5">Microsoft 365</h1>
+          <p class="mx-5 md:text-center md:text-base-lg md:text-lg py-6">
+            Everything you need to achieve more in less time
+          </p>
+          <button
+            class="flex justify-center items-center bg-blue-500 text-white h-14 w-44 mx-4 text-xl"
+          >
+            For one person
+          </button>
+        </div>
+
+        <div class="right">
+          <img src="M365.png" alt="" />
+        </div>
+      </div>
+
+      <div
+        class="promo py-4 space-y-2 md:flex md:justify-center cursor-pointer"
+      >
+        <div class="item flex items-center px-4 space-x-2">
+          <img src="icon-LL-Windows-.webp" alt="" />
+          <span class="font-medium hover:underline"
+            >Choose your window 365</span
+          >
+        </div>
+
+        <div class="item flex items-center px-4 space-x-2">
+          <img src="icon-LL-Tablet.webp" alt="" />
+          <span class="font-medium hover:underline"
+            >Explore Surface device</span
+          >
+        </div>
+
+        <div class="item flex items-center px-4 space-x-2">
+          <img src="icon-LL-Xbox.webp" alt="" />
+          <span class="font-medium hover:underline"> Buy Xbox games</span>
+        </div>
+
+        <div class="item flex items-center px-4 space-x-2">
+          <img src="icon-LL-Windows-.webp" alt="" />
+          <span class="font-medium hover:underline">Get Windows 11</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
