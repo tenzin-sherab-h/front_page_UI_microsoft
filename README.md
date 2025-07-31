@@ -15,7 +15,7 @@ A responsive UI clone inspired by Microsoft's homepage, built using HTML and Tai
 ## Technologies Used
 
 - HTML5
-- Tailwind CSS (via CDN)
+- Tailwind CSS 
 - PNG & WebP icons
 
 ## Notes
